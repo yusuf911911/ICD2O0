@@ -1,0 +1,20 @@
+
+class Testing Lesson_3{
+  public static void main(String [] args) {
+    // place your code here!
+System.out.println("Welcome to Sanjay's Koala Party!");
+System.out.print("It's possible Sanjay can distribute " + 12);
+System.out.println(" cookies for each bowl.");
+
+int bowl = 6;
+int cookies = 144;
+
+System.out.print("int");
+System.out.print("Sanjay has 6 bowls for 144 cookies. ");
+System.out.print("The number of cookies per bowl is: " + cookies/bowl + " ");
+
+
+
+
+    // your code ends here!
+  }
