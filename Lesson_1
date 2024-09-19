@@ -1,4 +1,4 @@
-class Testing {
+class Lesson_1 {
   public static void main(String [] args) {
     // place your code here!
     // this is a code comment
