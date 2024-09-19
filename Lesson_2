@@ -1,4 +1,4 @@
-{
+class main Lesson_2{
   public static void main(String [] args) {
     // place your code here!
     // 1 READ the code
