@@ -1,0 +1,28 @@
+// any import statements go here!
+
+public class Main Lesoon_4 {
+    public static void main(String[] args) {
+        // Your code goes here!
+       
+       int amount = 24;
+        
+        
+        System.out.println("Two dozen is: " + amount);
+        
+        int amountt = 7 * 4;
+        
+       
+        System.out.println("Forty-two is: " + amountt);
+        
+        int amounttt = 8;
+amounttt = amounttt + 1;
+System.out.println("8 + 1 =" + amounttt);
+int a = 8;
+int b = 3;
+System.out.println("8 * 3 = " + a*b); // what is the output?
+System.out.println("8 / 3 = " + a/b); // what is the output?
+
+
+        // Yout code stops here!
+    }
+}
