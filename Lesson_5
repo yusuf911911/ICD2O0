@@ -1,0 +1,42 @@
+// any import statements go here!
+import java.util.Scanner;
+ 
+public class Main {
+    public static void main(String[] args) {
+        // Your code goes here!
+         Scanner sc = new Scanner(System.in);
+         
+         System.out.println("Let me guess your year of birth." );
+         
+         int count;
+         int age;
+         int jj;
+         int gg;
+         int ff;
+         int qq;
+         int tt;
+         
+         System.out.println("  " );
+         
+         System.out.printf("Please enter your year of birth:" );
+         count = sc.nextInt();
+         double x;
+         
+         System.out.printf("Please enter your age:" );
+         age = sc.nextInt();
+         double y;
+         
+         jj = count*2+5; 
+         gg = jj*50;
+         ff = gg+age;
+         qq = ff-250;
+         tt = qq/100;
+         
+         
+         
+         System.out.println("  " );
+         
+         System.out.printf("You were born on " + tt);
+         
+    }
+}
