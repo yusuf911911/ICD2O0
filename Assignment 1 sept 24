@@ -1,0 +1,66 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package assignment_1;
+import java.lang.Math;
+import Math.PI;
+import java.util.Scanner;
+/**
+ *
+ * @author 776111
+ */
+public class ASSIGNMENT_1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    
+
+
+
+// you always need this, call it whatever class you want.
+
+                // however, the name of the class should be the same as the 
+
+                // filename (in this case, myClass.java)
+
+    public static void main(String [] args) {
+
+         // ALL of your remaining code goes here
+
+         
+         //Area of rectangle
+          Scanner sc = new Scanner(System.in);
+         Scanner sce = new Scanner(System.in);
+         System.out.println("Welcome to calculator." );
+         
+         int length;
+         int width;
+         int area;
+          
+         System.out.println("  " );
+         
+         System.out.printf("Please enter your rectangle's length:" );
+         length = sc.nextInt();
+         System.out.printf("Please enter your rectangle's width:" );
+         width = sc.nextInt();
+         
+         area=length*width;
+         System.out.printf("Your rectangle's area is: " + area );
+         
+         //Area of a circle
+          Scanner esc = new Scanner(System.in);
+        System.out.printf("  ");
+        int radius;
+        int circle_area;
+         System.out.print("Please enter your circle's radius:" );
+        radius = sc.nextInt();
+          
+        circle_area=radius*3.1415926535;
+         
+         System.out.printf("Your circle's area is: " + circle_area );
+    }
+}
