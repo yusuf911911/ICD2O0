@@ -1,0 +1,91 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package assignment_1;
+import java.lang.Math;
+import java.lang.Integer;
+import java.util.Scanner;
+/**
+ *
+ * @author 776111
+ */
+public class ASSIGNMENT_1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    
+
+
+
+// you always need this, call it whatever class you want.
+
+                // however, the name of the class should be the same as the 
+
+                // filename (in this case, myClass.java)
+
+    public static void main(String [] args) {
+
+         // ALL of your remaining code goes here
+
+         
+         //Welcome page
+         Scanner sc = new Scanner(System.in);
+         Scanner sce = new Scanner(System.in);
+         System.out.println("Welcome to area calculator!" );
+         
+         //Area of rectangle
+         int length;
+         int width;
+         int area;
+         System.out.println("  " );
+         System.out.printf("Please enter your rectangle's length:" );
+         length = sc.nextInt();
+         System.out.printf("Please enter your rectangle's width:" );
+         width = sc.nextInt();
+         area=length*width;
+         System.out.printf("Your rectangle's area is: " + area );
+         
+         //Area of a circle
+          Scanner esc = new Scanner(System.in);
+        System.out.printf("  ");
+        int radius;
+        double circle_area;
+        System.out.print("Please enter your circle's radius:" );
+        radius = sc.nextInt();
+        circle_area=(int) (radius*radius)*(3.1415926535);
+        System.out.printf("Your circle's area is: %.2f", circle_area );
+         
+         //Surface area and volume of a cylinder
+             //surface area
+         int height;
+         int cylinder_radius;
+         double surface_area11;
+         double surface_area12;
+         double surface_area;
+        System.out.print("Please enter your cylinder's height:" );
+        height = sc.nextInt();
+        System.out.print("Please enter your cylinder's radius:" );
+        cylinder_radius = sc.nextInt();
+        surface_area11 = 2*(2*3.1415926535*cylinder_radius*height);
+        surface_area12 = 2*(3.1415926535*cylinder_radius);
+        surface_area = surface_area11 + surface_area12;
+        System.out.printf("Your cylinder's surface area is: %.2f", surface_area );
+            //volume
+        double volume; 
+        volume = 3.1415926535*cylinder_radius*cylinder_radius*height;
+        System.out.printf("Your cylinder's volume is: %.2f", volume );
+       
+        //Pendulum period
+        int L;
+        double P;
+        System.out.print("Please enter your pendulum's length:" );
+        L = sc.nextInt();
+        P = 2*3.1415926535(); //ADD rEST ON EQUATION
+        
+        
+    }
+}
