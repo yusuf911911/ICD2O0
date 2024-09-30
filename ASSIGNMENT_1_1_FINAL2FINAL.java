@@ -61,8 +61,10 @@ public class ASSIGNMENT_1 {
          double length; //defines length as a double
          double width; //defines width as a double
          double area; //defines area as a double
+         //lets user know what is being calculated
+         System.out.printf("I am now going to calculate your rectangles area" );
          //asks user for length of rectangle
-         System.out.printf("Please enter your rectangle's length:" ); 
+         System.out.printf("\n Please enter your rectangle's length:" ); 
          length = sc.nextDouble(); //defines length as next input
          //asks user for width of rectangle
          System.out.printf("Please enter your rectangle's width:" ); 
@@ -72,6 +74,8 @@ public class ASSIGNMENT_1 {
          System.out.printf("Your rectangle's area is: %.2f", area ); 
          
          //Area of a circle
+         //lets user know what is being calculated
+         System.out.printf("\n I am now going to calculate your circles area" );
          Scanner esc = new Scanner(System.in); //introduces scanner system
          double radius; //defines radius as an integer
          double circle_area; //defines circle_area as a double
@@ -85,6 +89,8 @@ public class ASSIGNMENT_1 {
          
          //Surface area and volume of a cylinder
          //surface area
+         //lets user know what is being calculated
+         System.out.printf("\n I am now going to calculate your cylinder's surface area" );
          double height; //defines height as an integer
          double cylinder_radius; //defines cylinder_radius as an integer
          double surface_area11; //defines surface_area11 as a double
@@ -103,12 +109,16 @@ public class ASSIGNMENT_1 {
          //prints surface area with 2 decimal points
          System.out.printf("\nYour cylinder's surface area is: %.2f", surface_area ); 
          //volume
+         //lets user know what is being calculated
+         System.out.printf("\n I am now going to calculate your cylinders volume" );
          double volume; //defines volume as a double
          volume = 3.1415926535*cylinder_radius*cylinder_radius*height; //defines volume
          //prints volume with 2 decimal points
          System.out.printf("\nYour cylinder's volume is: %.2f", volume );  
        
          //Pendulum period
+         //lets user know what is being calculated
+         System.out.printf("\n I am now going to calculate your pendulums speed" );
          double L; //defiens L as a double
          double g; //Defines g as an integer
          double ooo; //defines ooo as an integer
