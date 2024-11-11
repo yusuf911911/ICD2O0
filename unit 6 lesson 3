@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class marks {
+   public static void main(String [] args) {
+   
+   Scanner sc = new Scanner(System.in);
+   System.out.print("Please enter an integer: ");
+   int marks = sc.nextInt();
+
+   if (marks < 49) {
+     System.out.println(marks + " is an F");
+   } else if (marks < 59) {
+     System.out.println(marks + " is an D");
+   } else if (marks < 69) {
+     System.out.println(marks + " is an C");
+   } else if (marks < 79) {
+     System.out.println(marks + " is an B");
+   } else if (marks < 100) {
+     System.out.println(marks + " is an A");
+   } else {
+     System.out.println(" Please try again ");
+   }
+ }
+}
+   
