@@ -1,0 +1,22 @@
+class strings {
+   public static void main(String [] args) {
+      String w1 = "shellshock";
+      String w2 = "shellac";
+      String w3 = "fortify";
+      if ((w1.compareTo(w2) < 0)&&(w2.compareTo(w3)<0)){
+       System.out.println(w1 + " comes before " + w2 + " comes before  " + w3);
+      }else if ((w2.compareTo(w1) < 0)&&(w1.compareTo(w3)<0)){
+       System.out.println(w2 + " comes before " + w1 + " comes before  " + w3);
+      }else if ((w1.compareTo(w3) < 0)&&(w3.compareTo(w2)<0)){
+       System.out.println(w1 + " comes before " + w3 + " comes before  " + w2);
+      }else if ((w2.compareTo(w3) < 0)&&(w3.compareTo(w1)<0)){
+       System.out.println(w2 + " comes before " + w3 + " comes before  " + w1);
+      }else if ((w3.compareTo(w1) < 0)&&(w1.compareTo(w2)<0)){
+       System.out.println(w3 + " comes before " + w1 + " comes before" + w2);
+      }else if ((w3.compareTo(w2) < 0)&&(w2.compareTo(w1)<0)){
+       System.out.println(w3 + " comes before " + w2 + " comes before" + w1);
+      }else if ((w3.compareTo(w2) < 0)&&(w2.compareTo(w1)<0)){
+       System.out.println(w3 + " comes before " + w2 + " comes before  " + w1);
+      }
+   }
+}
