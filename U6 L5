@@ -1,0 +1,17 @@
+// any import statements go here!
+import java.util.Scanner;
+
+class Calc {
+   public static void main(String [] args) {
+      Scanner ee = new Scanner(System.in);
+      long ff = 1;
+      double fac = 1;
+      System.out.print("Enter a number for factorial: ");
+      long max = ee.nextLong();
+      while (ff <= max) {
+         fac = fac * ff;
+         ff = ff + 1;
+      }
+      System.out.printf("%e\n", fac);
+   }
+}
