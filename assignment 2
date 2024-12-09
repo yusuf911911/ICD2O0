@@ -1,0 +1,56 @@
+package javaapplication1;
+import java.util.Scanner;
+
+public class JavaApplication1 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+        boolean stop = false;    
+        while (!stop) {
+            //ask for integer
+            System.out.println("Please enter an integer.");
+            int qq = sc.nextInt();
+            int highest = qq; 
+            int termsCount = 1; 
+            
+            //collatz sequence
+            System.out.print("The Collatz sequence for that number is = " + qq + " is: ");
+            
+            //loop
+            while (qq != 1) {
+                System.out.print(qq + "; ");
+                
+                //if odd
+                if ((qq & 1) == 1) {
+                    qq = 3 * qq + 1;
+                } 
+                //if even
+                else {
+                    qq = qq / 2;
+                }
+                if (qq > highest) {
+                    highest = qq;
+                }
+                termsCount++;
+            }
+            
+            //typr 1
+            System.out.println(qq);
+            
+            //highest number reached and number of terms
+            System.out.println("Number of terms = " + termsCount);
+            System.out.printf("Highest value reached = %,d\n", highest); // Formatted output
+            
+            //continue
+            System.out.println("Would you like to continue? (yes or no)");
+            String s = scan.next();
+            if (s.equals("no")) {
+                stop = true;
+            }
+        }
+        
+       
+    }
+}
+
